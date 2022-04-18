@@ -35,8 +35,8 @@ function About() {
 
 function App() {
   return (
-    <Container fluid>
-      <Row>
+    <Container fluid className="page">
+      <Row className="sticky-top">
         <Col className="bg-light border">
           Logo
         </Col>
@@ -57,7 +57,7 @@ function App() {
       </Row>
       <Row>
         <Col
-          className="bg-dark border"
+          className="bg-light border"
           xs="3"
           sm="3"
           md="2"
@@ -90,7 +90,7 @@ function App() {
           Bottom 1
         </Col>
         <Col
-          className="bg-light border"
+          className="bg-light border text-right"
           xs="6"
         >
           Bottom 2
